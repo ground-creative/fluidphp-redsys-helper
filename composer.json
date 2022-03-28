@@ -4,7 +4,8 @@
 	"description": "FluidPHP framework redsys helper" ,
 	"keywords": [ "php library" ] ,
 	"homepage": "http://phptoolcase.com" ,
-	"license": "GPL V2" ,
+	"license": "GPL-2.0-or-later" ,
+	"version": "v1.0.1-stable",
 	"authors": 
 	[
 		{

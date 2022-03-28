@@ -165,5 +165,3 @@ class API
 		return $this->base64_url_encode( $res );	
 	}
 }
-
-?>

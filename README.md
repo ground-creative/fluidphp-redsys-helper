@@ -1,43 +1,41 @@
- ##########################################################
+ # FluidPhp Redsys Helper
 
-FluidPhp 1 open source project redsys helper
+FluidPhp is a framework based on the PhpToolCase library, visit [phptoolcase.com](http://phptoolcase.com) for complete guides and examples.
 
-A powerfull framework based on the phptoolcase library.
+## Installation
 
-##########################################################
+Add the package to your composer.json file, to install the helper.
 
-FluidPhp is a framework based on the PhpToolCase library.
+With fluidphp framework:
+```
+"require": 
+{
+	"mnsami/composer-custom-directory-installer": "2.0.*" ,
+	"fluidphp/redsys-helper": "*"
+} ,
+"extra": 
+{
+	"installer-paths": 
+	{
+		"./vendor/fluidphp/helpers/Redsys": ["fluidphp/redsys-helper"]
+	}
+}
+```	
+Stand-alone:
+```		
+"require": 
+{
+	"fluidphp/redsys-helper": "*"
+}
+```
 
-Visit phptoolcase.com for complete guides and examples.
+## Project Info
 
-== PROJECT INFO ===================================
+### Project Home
 
-== Project Home: http://phptoolcase.com
+http://phptoolcase.com
 
-== Requirements: php version 5.3+
+### Requirements
 
-== INSTALLATION WITH COMPOSER ========================
-	
-	Add the following to your composer.json file:
-	
-	- WITH FLUIDPHP FRAMEWORK:
-
-		"require": 
-		{
-			"mnsami/composer-custom-directory-installer": "1.0.*",
-			"fluidphp/redsys-helper": "~1.0"
-		} ,
-		"extra": 
-		{
-			"installer-paths": 
-			{
-				"./vendor/fluidphp/helpers/Redsys": ["fluidphp/redsys-helper"]
-			}
-		}
-		
-	- STAND-ALONE:
-		
-		"require": 
-		{
-			"fluidphp/redsys-helper": "~1.0"
-		}
+php version 5.4+
+php-mcrypt module
